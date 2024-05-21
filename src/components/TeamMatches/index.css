@@ -1,0 +1,10 @@
+/* Write your CSS here */
+.each-team-container {
+  background-image: linear-gradient(to top, #1e293b, #a4261d);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  flex-direction: column;
+}

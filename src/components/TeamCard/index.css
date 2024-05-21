@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.team-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 0.5px solid #ffffff;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  list-style-type: none;
+}
+.team-image {
+  width: 110px;
+  margin-right: 40px;
+}
+.team-heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: roboto;
+  font-size: 30px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .team-container {
+    width: 200px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .team-image {
+    width: 50px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .team-heading {
+    font-size: 20px;
+  }
+}
+.link {
+  text-decoration: none;
+}
